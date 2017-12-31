@@ -1,0 +1,66 @@
+html{
+	height: 100%
+}
+
+body > div{
+	width: 200px;
+	margin: 10% auto 0;
+	text-align: center;
+}
+a,p{
+	display: inline-block;
+	text-align:center;
+}
+#timer{
+	margin-top: 20px;
+	width: 200px;
+	height: 200px;
+	padding-top:30%;
+	border-radius: 50%;
+	box-sizing: border-box; 
+	background-color: #353839;
+	color:#FFFFF0;
+	text-align: center;
+	box-shadow: 0 0 5px #9CFF00;
+}
+#timer h3{
+	margin:0;
+	padding:0;
+}
+#timer div{
+	font-size: 50px;
+	text-align: center;
+}
+.set_length{
+	text-align:center;
+}
+.set_length h4{
+	margin:0;
+}
+.set_length a{
+	font-size: 40px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.set_length p{
+	margin:0;
+	padding: 0 15px;
+	font-size: 40px;
+	font-weight: bold;
+}
+.right{
+	text-align:center;
+}
+.clear{
+	clear:both;
+}
+button{
+	margin-top: 20px;
+	background-color:white;
+	border:none;
+	outline:none;
+}
+img{
+	width:40px;
+	height: 40px;
+}

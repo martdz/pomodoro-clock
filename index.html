@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Pomodoro clock</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="pomodoro.css">
+		<link href="https://fonts.googleapis.com/css?family=Archivo+Black|Roboto:400,700" rel="stylesheet">
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	</head>
+	<body>
+		<div>
+			<div>
+			<div class="set_length">
+				<h4>Session Length</h4>
+				<a class="minus_s">-</a>
+				<p id="session" class="length">2</p>
+				<a class="plus_s">+</a> 
+			</div>
+			</div>
+			<div class="clear"></div>
+			<div>
+				<div id="timer">
+					<h3>Session <span>Start!</span></h3>
+					<div>
+						<span class="min">00</span>:<span class="sec">00</span>
+					</div>
+				</div>
+			</div>
+			<button id="refresh"><img src="refresh.png" alt="refresh icon"></button>
+		</div>	
+		
+		<audio id="sound">
+			<source src="timer.mp3" type="audio/mp3">
+		</audio>
+	<script src="pomodoro.js"></script>
+	</body>
+</html>	
